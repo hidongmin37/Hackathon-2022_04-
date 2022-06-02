@@ -1,0 +1,165 @@
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\xgboost\compat.py:36: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import MultiIndex, Int64Index
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\scalecast\Forecaster.py:259: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.future_dates = pd.Series([])
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\scalecast\Forecaster.py:259: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.future_dates = pd.Series([])
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\scalecast\Forecaster.py:259: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.future_dates = pd.Series([])
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Temp\ipykernel_6408\1167565043.py:1: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only.
+  x_train, x_test, y_train, y_test = train_test_split(df_prac.drop('전월대비 등락률', 1), df_prac['전월대비 등락률'], test_size=0.3, random_state=0, shuffle=False)
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\scalecast\Forecaster.py:259: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.future_dates = pd.Series([])
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\scalecast\Forecaster.py:1602: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  pd.Series(list(self.current_dates)[-len(self.y) :]),
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\scalecast\Forecaster.py:259: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self.future_dates = pd.Series([])
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Temp\ipykernel_6408\3359876647.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_prac_1["2달"]=df_prac_1[["전월대비 등락률"]].rolling(2).mean().shift(1)
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Temp\ipykernel_6408\3359876647.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_prac_1["3달"]=df_prac_1[["전월대비 등락률"]].rolling(3).mean().shift(1)
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Temp\ipykernel_6408\3359876647.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_prac_1["5달"]=df_prac_1[["전월대비 등락률"]].rolling(5).mean().shift(1)
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Temp\ipykernel_6408\1279258066.py:1: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only.
+  x_train, x_test, y_train, y_test = train_test_split(df_prac_1.drop('전월대비 등락률', 1), df_prac_1['전월대비 등락률'], test_size=0.3, random_state=0, shuffle=False)
+
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:tensorflow:Can save best model only with val_loss available, skipping.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Temp\ipykernel_6408\1324966394.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_prac_1.drop(['날짜','Year','Month','Day'],axis=1,inplace=True)
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\statsmodels\tsa\vector_ar\var_model.py:1545: RuntimeWarning: invalid value encountered in sqrt
+  stderr = np.sqrt(np.diag(self.cov_params()))
+
+WARNING:py.warnings:C:\Users\jangd\AppData\Local\Programs\Python\Python310\lib\site-packages\xgboost\compat.py:36: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import MultiIndex, Int64Index
+
+WARNING:tensorflow:5 out of the last 13 calls to <function Model.make_test_function.<locals>.test_function at 0x0000020D09ABBEB0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:5 out of the last 13 calls to <function Model.make_test_function.<locals>.test_function at 0x0000020D0A67EA70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
